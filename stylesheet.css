@@ -1,0 +1,35 @@
+* {
+    margin:0;
+}
+header {
+    background:linear-gradient(45deg, lightgreen, rgb(1, 77, 1));
+    color:white;
+}
+body {
+    background-color:black;
+    text-align: center;
+}
+img {
+    width:50%;
+    margin-top:5%;
+    height:50%;
+}
+input[type="button"] {
+    background-color:green;
+    color:white;
+    width:20%;
+    border-radius:200px;
+    margin-top:10%;
+    height:50px;
+    border:1px solid green;
+}
+input[type="button"]:hover {
+    cursor:pointer;
+    background-color:rgb(0, 53, 0);
+    border:1px solid rgb(0, 53, 0);
+}
+@keyframes dice {
+    100% {
+        transform:rotatey(180deg);
+    }
+}
